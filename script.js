@@ -42,7 +42,7 @@ console.log(array[0]);
 let obj = {
     name: 'Paul',
     age: 30,
-    cats: ['Kiisu', 'Miisu', 'Nahhui'],
+    cats: ['Kiisu', 'Miisu', 'Tiramisu'],
     aadress: {
         city: 'Tallinn',
         street: 'Vilde tee'
@@ -55,9 +55,11 @@ let func = function (){
     console.log('hello world');
 }
 console.log(func);
+
 function func2() {
     console.log('hello world');
 }
+
 let func3 = () => console.log('hello world');
 let func4 = () => {
     console.log('hello world');
