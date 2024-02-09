@@ -1,0 +1,9 @@
+$bgcolor: #10ADED;
+
+body {
+    background-color: darken($bgcolor, 30);
+}
+
+h1 {
+    color: $bgcolor;
+}
